@@ -50,6 +50,6 @@ if solve(grid, 0, 0):
     for i in range(9):
         for j in range(9):
             print(grid[i][j], end=" ")
-            print()
+        print()
 else:
     print("This Sudoku has no solution")
