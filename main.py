@@ -4,7 +4,7 @@ def is_valid_move(grid, row, col, number):
             return False
         
     for y in range(9):
-        if grid[col][y] == number:
+        if grid[y][col] == number:
             return False
         
     corner_row = row - row % 3
