@@ -45,3 +45,11 @@ grid = [[2, 5, 0, 0, 8, 0, 0, 0, 0],
         [0, 7, 0, 0, 0, 0, 0, 0, 0],
         [0, 9, 0, 5, 0, 0, 8, 3, 0],
         [0, 1, 0, 9, 2, 0, 0, 0, 0]]
+
+if solve(grid, 0, 0):
+    for i in range(9):
+        for j in range(9):
+            print(grid[i][j], end=" ")
+            print()
+else:
+    print("This Sudoku has no solution")
